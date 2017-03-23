@@ -24,8 +24,8 @@ image.onload=function(){
 var particles=[];
 function calculate(){
 	//只保存100行，100列的像素值
-	var cols=100,
-		rows=100;
+	var cols=90,
+		rows=82;
 	//设置100行，100列后每个单元的宽高
 	var s_width=parseInt(image.width/cols);
 	var s_height=parseInt(image.height/rows);
